@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remaliah</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/location.css">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/scripts.js"></script>
+    <link rel="shortcut icon" href="../images/tools_07.jpg">
+</head>
+<body>
+    <div class="mainmain">
+        <div class="container-fluid">
+    <div class="col-md-12">
+        <header>
+            <div class="main">
+                <div class="wrapper" id="top">
+                    <h1><a href="index.html">Remaliah </a></h1>
+                    <div class="fright">
+                        <div class="indent">
+                            <span class="address"> Bunyala Road, Nairobi, <br>
+                            </span> <span class="phone">
+                                <h5>Tel: +254 777 888 666</h5>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="maintenance.html">Maintenance </a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <h2>Book with us</h2>
+    <form id="bookform">
+        <table>
+          <label>Name_</label>
+          <input type="text" placeholder=" Enter your name here..." id="name">
+          <label>Email_</label>
+          <input type="email" placeholder=" Enter your email here..." id="email"> 
+        </table><br>
+        <table>
+          <label>Type of Service_</label>
+          <select name="service" id="service">
+            <option value="haircut">wheel Alignment</option>
+            <option value="tattoo">vehicle servicing</option>
+            <option value="bridal styling">Vehicle Modification</option>
+            <option value="braiding and weaving">Painting</option>
+            <option value="manicure/pedicure">Vehicle Inspection</option>
+          </select>
+          <label>Enter the date_</label>
+          <input type="date" id="date">
+        </table><br>
+        <label>Enter the time:</label>
+        <input type="time" id="time"><br><br>
+        <button type="button" onclick="order()" style="background-color: transparent; color: white;" class="book">Book Now!</button>
+      </form>
+    
+    <div class="summary" id="summary"><br>
+      <h2>Summary of your Booking</h2>
+      <p id="x"></p>
+      <p id="y"></p>
+      <p id="z"></p>
+      <p id="ad"></p>
+      <button type="button" class="book" id="okaybutton" style="background: transparent; color: white;">OK</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
