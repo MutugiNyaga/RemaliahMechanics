@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#7f7f7f;
+	
+	background:url(https://bit.ly/2C1vByi) 
+}
+.main {
+	
+	padding:0;
+	margin:0 auto;
+    font-size:13px;
+    
+}
+.main2{
+    text-align: center;
+}
+
+a {
+	color:#b22300;
+	outline:none;
+}
+a:hover {
+    text-decoration:none;
+    
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+
+p {
+	margin-bottom:18px;
+}
+.p0 {
+	margin-bottom:0px;
+}
+.p1_2 {
+	margin-bottom:8px;
+}
+.p2_2 {
+	margin-bottom:15px;
+}
+.p3_2 {
+	margin-bottom:30px;
+}
+.p4_2 {
+	margin-bottom:45px;
+}
+.p5_2 {
+	margin-bottom:50px;
+}
+.indent-left_2 {
+	padding-left:30px;
+}
+.indent-bot_2 {
+	margin-bottom:20px;
+}
+.buttons a:hover {
+    cursor:pointer;
+}
+
+h1 {
+	float:left;
+}
+h1 a {
+	display:block;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 5px;
+    margin:5px;
+    line-height: 10px;
+    
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+nav>ul>li>a:hover {
+    border: solid 2px #b22300;;
+    color: #b22300;
+}
+nav>ul{
+    text-align: center;
+}
+
+
+.text-form{
+    float: left;
+    display: block;
+    font-size: 13px;
+    
+	width:70px;
+	color:#7f7f7f;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.buttons_2 {
+	padding:20px 10px 0 0;
+    text-align: right;
+    
+}
+
+.button_2 {
+    background-color: #b22300;
+    padding: 10px;
+    color: black;
+    border-radius: 7px;   
+    margin: 20px;
+    align-items: center;
+}
+#button2
+.footer{
+    text-align: center;
+}
+.grid_4{
+    float: right;
+}
+.wrapper2_2{
+    width: 49vw;
+    
+}
+.mainmain{
+    background-image: url("https://bit.ly/2VK9AeK");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 30px;
+  /* overflow: hidden; */
+}
+.summary{
+    display: none;
+    text-align: center;
+    /* background-image: url("https://bit.ly/39j5FK3"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans Caption', sans-serif;
+    height: 637px;
+    color: white;
+    font-size: 40px;
+  }
+  .summary h2{
+    color: white;
+    text-decoration-line: underline;
+    font-size: 80px;
+  
+  }
